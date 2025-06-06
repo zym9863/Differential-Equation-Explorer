@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
-import { evaluate, derivative, parse } from 'mathjs'
+import { ref, onMounted } from 'vue'
+import { evaluate } from 'mathjs'
 
 interface SolutionStep {
   step: string
